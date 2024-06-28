@@ -49,7 +49,7 @@ function reverseString(str) {
 }
 
 console.log(reverseString("hello"));
-*/
+
 
 // 5) Write a function named ‘filterOddNumbers’ that takes an array of numbers and returns a new array containing only the odd numbers.
 
@@ -62,3 +62,19 @@ let numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let output = numArray.filter(filterOddNumbers);
 
 console.log(output);
+*/
+
+// 6) Write a function named ‘sumArray’ that takes an array of numbers and returns the sum of all elements.
+
+function sumArray(numbers) {
+  let sum = 0;
+  for (let i in numbers) {
+    sum = sum + numbers[i];
+  }
+
+  return sum;
+}
+
+let numArray = [1, 2, 3, 4, 5];
+
+console.log(sumArray(numArray));
