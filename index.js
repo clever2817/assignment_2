@@ -38,7 +38,7 @@ function findMax(numArray) {
 
 let numbers = [5, 1, 4, 3, 18, 7, 2, 9];
 console.log(findMax(numbers));
-*/
+
 
 // 4) Write a function named ‘reverseString’ that takes a string and returns the string reversed.
 
@@ -49,3 +49,16 @@ function reverseString(str) {
 }
 
 console.log(reverseString("hello"));
+*/
+
+// 5) Write a function named ‘filterOddNumbers’ that takes an array of numbers and returns a new array containing only the odd numbers.
+
+function filterOddNumbers(number) {
+  return number % 2 !== 0;
+}
+
+let numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let output = numArray.filter(filterOddNumbers);
+
+console.log(output);
