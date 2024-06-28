@@ -62,7 +62,7 @@ let numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let output = numArray.filter(filterOddNumbers);
 
 console.log(output);
-*/
+
 
 // 6) Write a function named ‘sumArray’ that takes an array of numbers and returns the sum of all elements.
 
@@ -78,3 +78,16 @@ function sumArray(numbers) {
 let numArray = [1, 2, 3, 4, 5];
 
 console.log(sumArray(numArray));
+*/
+
+// 7) Write a function named ‘sortArray’ that takes an array of numbers and returns a new array sorted in ascending order.
+
+function sortArray(a, b) {
+  return a - b;
+}
+
+let num = [12, 8, 15, 3, 9, 2, 10, 1];
+
+let result = num.sort(sortArray);
+
+console.log(result);
