@@ -78,7 +78,7 @@ function sumArray(numbers) {
 let numArray = [1, 2, 3, 4, 5];
 
 console.log(sumArray(numArray));
-*/
+
 
 // 7) Write a function named ‘sortArray’ that takes an array of numbers and returns a new array sorted in ascending order.
 
@@ -91,3 +91,16 @@ let num = [12, 8, 15, 3, 9, 2, 10, 1];
 let result = num.sort(sortArray);
 
 console.log(result);
+*/
+
+// 8) Write a function named ‘capitalizeFirstLetter’ that takes a string and returns the same string with the first letter capitalized.
+
+function capitalizeFirstLetter(str) {
+  let result = str.charAt(0).toUpperCase() + str.slice(1);
+
+  return result;
+}
+
+let string = "abir";
+
+console.log(capitalizeFirstLetter(string));
