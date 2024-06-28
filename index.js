@@ -20,7 +20,7 @@ function isEven(num) {
 
 console.log(isEven(6));
 console.log(isEven(9));
-*/
+
 
 // 3) Write a function named ‘findMax’ that takes an array of numbers and returns the largest number in the array.
 
@@ -38,3 +38,14 @@ function findMax(numArray) {
 
 let numbers = [5, 1, 4, 3, 18, 7, 2, 9];
 console.log(findMax(numbers));
+*/
+
+// 4) Write a function named ‘reverseString’ that takes a string and returns the string reversed.
+
+function reverseString(str) {
+  let result = str.split("").reverse().join("");
+
+  return result;
+}
+
+console.log(reverseString("hello"));
